@@ -15,7 +15,7 @@ export const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <h3 className="logo">"G-SS"</h3>
+        <h3 className="logo">"TADA-CADA-BRA"</h3>
 
         {/* Enlaces de navegación */}
         <ul
@@ -23,30 +23,10 @@ export const Navbar = () => {
           onClick={() => setMobile(false)}
         >
           <Link to="/">
-            <li>Home</li>
-          </Link>
-          <Link to="/shop">
-            <li>Shop</li>
-          </Link>
-          <Link to="/cart">
-            <li>Cart</li>
-          </Link>
-          <Link to="/contact">
-            <li>Contact</li>
+            <li>Volver</li>
           </Link>
         </ul>
 
-        {/* Iconos de usuario y carrito */}
-        {/* link para el usuario  */}
-        <div className="icons">
-             <Link to={"/login"}>
-          <FaUser className="icon" />
-        
-        </Link>
-          {/* link para el carrito  */}
-
-          <IoCart className="icon" />
-        </div>
 
         {/* Botón del menú hamburguesa */}
         <button className="mobiles-menu" onClick={() => setMobile(!mobile)}>
