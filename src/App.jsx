@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Tada from './components/Pages/Tada';
+import PreciosMagicos from './components/Pages/PreciosMagicos';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function Main() {
     <>
       <Routes>
         <Route path="/" element={<Tada/>} />
+        <Route path="/preciosMagicos" element={<PreciosMagicos/>} />
       </Routes>
     </>
   )
