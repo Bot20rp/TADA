@@ -13,20 +13,12 @@ body {
     font-size: 3rem; /* Letras grandes */
     font-weight: 900; /* Letras gorditas */
     color: #ffffff;
-    text-shadow: 0 0 10px #ff8c00, 0 0 20px #ff4500, 0 0 30px #ff4500;
+    text-shadow: 0 0 3px #ffffff, 0 0 20px #f1e049, 0 0 30px #ff00ff;
     margin: 0;
     position: relative;
-    animation: explode 5s ease-in-out infinite;
-    opacity: 0; /* Comienza invisible */
 }
 
-.magia h1:nth-child(1) {
-    animation-delay: 0.5s; /* Retardo para "PRECIOS" */
-}
 
-.magia h1:nth-child(2) {
-    animation-delay: 1.5s; /* Retardo para "MAGICOS" */
-}
 
 @keyframes explode {
     0% {
