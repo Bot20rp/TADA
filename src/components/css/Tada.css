@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #e200f7;
+    background-color: #ffffff;
     font-family: Arial, sans-serif;
 }
 
@@ -80,7 +80,7 @@ body {
     justify-items: center;
     width: 100%;
     height: auto;
-    background-color: #e200f7;
+    background-color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
     flex-direction: column;
